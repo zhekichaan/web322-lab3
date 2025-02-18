@@ -19,7 +19,8 @@ const app = express(); // create express application
 const port = 3000; // set port to 3000
 const path = require("path");
 
-app.use(express.static("public"));
+app.set("views", __dirname + "/views");
+app.use(express.static(__dirname + "/public"));
 
 app.get(
   "/",
