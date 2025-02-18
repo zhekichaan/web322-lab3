@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Climate Solutions</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbar bg-base-100 px-10">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" href="/"
+          >Climate Solutions</a
+        >
+      </div>
+
+      <div class="navbar-center flex">
+        <ul class="menu menu-horizontal px-1 gap-4">
+          <li><a href="/about">About</a></li>
+          <li>
+            <details>
+              <summary>Sector</summary>
+              <ul class="p-2 bg-base-100 right-0">
+                <li>
+                  <a href="/solutions/projects?sector=Industry">Industry</a>
+                </li>
+                <li>
+                  <a href="/solutions/projects?sector=Transportation"
+                    >Transportation</a
+                  >
+                </li>
+                <li>
+                  <a href="/solutions/projects?sector=Electricity"
+                    >Electricity</a
+                  >
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="container mx-auto">
+        <!-- Hero Section -->
+        <div class="hero bg-base-200 h-[500px]">
+          <div class="hero-content text-center">
+            <div class="max-w-lg">
+              <h1 class="text-5xl font-bold">Explore Our Projects 🌍</h1>
+              <p class="py-6">
+                Dive into innovative climate solutions driving real change. From
+                renewable energy initiatives to sustainable practices, our
+                projects are shaping a greener, brighter future. Discover how
+                we're making a difference—and how you can be part of it!
+              </p>
+              <a class="btn btn-primary" href="/solutions/projects"
+                >See Projects</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Projects Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
+          <div class="card px-5 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://drawdown.org/sites/default/files/solutions/solution_farmlandrestoration01.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Abandoned Farmland Restoration</h2>
+              <p>
+                Restoration can bring degraded farmland back into productivity
+                and sequester carbon in the process.
+              </p>
+              <div class="card-actions justify-center">
+                <a href="/solutions/projects/1" class="btn btn-primary"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card px-5 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://drawdown.org/sites/default/files/solutions2020/solution_alternativecement02.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Alternative Cement</h2>
+              <p>
+                Conventional cement production is a significant source of carbon
+                dioxide. Reformulation can reduce emissions by millions of
+                metric tons each year.
+              </p>
+              <div class="card-actions justify-center">
+                <a href="/solutions/projects/2" class="btn btn-primary"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card px-5 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://drawdown.org/sites/default/files/solutions2020/solution_bicycle_infrastructure.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Bicycle Infrastructure</h2>
+              <p>
+                Infrastructure is essential for supporting safe and abundant
+                bicycle use, which curbs emissions by reducing the need for
+                fossil-fuel-dependent transportation.
+              </p>
+              <div class="card-actions justify-center">
+                <a href="/solutions/projects/3" class="btn btn-primary"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
